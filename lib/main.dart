@@ -15,42 +15,23 @@ class MyApp extends StatelessWidget {
 //    ),
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child:Column(
-           // mainAxisSize: MainAxisSize.min,
-            //verticalDirection: VerticalDirection.down,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-
+          child: Column(
             children: <Widget>[
-              Container(
-                color: Colors.white,
-                child: Text("White"),
-                height: 100.0,
-                width: 100.0,
-                padding: EdgeInsets.all(10),
+              CircleAvatar(
+                radius: 50,
+               backgroundImage: AssetImage('images/faisal.jpeg'),
               ),
-              SizedBox(
-                height: 20,
+              Text(
+                'Faisal Ahmed',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Pacifico',
+                ),
               ),
-              Container(
-                color: Colors.red,
-                child: Text("Red "),
-                height: 100.0,
-                width: 100.0,
-                padding: EdgeInsets.all(10),
-              ),
-              Container(
-                color: Colors.blue,
-                child: Text("Blue"),
-                height: 100.0,
-                width: 100.0,
-                padding: EdgeInsets.all(10),
-              ),
-              /*Container(
-                width: double.infinity,
-              ),*/
             ],
           ),
-
         ),
       ),
     );
