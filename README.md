@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # my_card_flutter
 
 A new Flutter application.
@@ -16,5 +15,3 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 =======
-# my_card_flutter
->>>>>>> 55ac61129ec04c1052edc3b4a716297ec4be759c
