@@ -1,6 +1,7 @@
 # my_card_flutter
 
-A new Flutter application.
+![Flutter Example](https://raw.githubusercontent.com/NerdFaisal404/my_card_flutter/master/screenshot/app_screenshot.png)
+
 
 ## Getting Started
 
